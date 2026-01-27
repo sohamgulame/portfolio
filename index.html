@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Engineering Student</title>
+    <meta name="description" content="Portfolio of a passionate Engineering Student showcasing projects and skills.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@500;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Background Glow -->
+    <div class="background-glow"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#" class="logo">PORTFOLIO.</a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <span class="hero-subtitle">Engineering Student & Developer</span>
+        <h1 class="text-gradient">Building the future,<br>one line at a time.</h1>
+        <p>I transform complex problems into elegant, efficient solutions. Passionate about software engineering,
+            robotics, and full-stack development.</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-header">
+            <h2>About Me</h2>
+        </div>
+        <div style="color: var(--text-muted); font-size: 1.1rem; line-height: 1.8;">
+            <p>I am a third-year Computer Engineering student with a drive for innovation. My journey started with
+                simple scripts and has evolved into building scalable web applications and exploring machine learning
+                algorithms. I believe in continuous learning and applying engineering principles to solve real-world
+                challenges.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="section-header">
+            <h2>Technical Skills</h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card"><i class="fab fa-python fa-2x"></i><br>Python</div>
+            <div class="skill-card"><i class="fab fa-js fa-2x"></i><br>JavaScript</div>
+            <div class="skill-card"><i class="fab fa-react fa-2x"></i><br>React</div>
+            <div class="skill-card"><i class="fab fa-node fa-2x"></i><br>Node.js</div>
+            <div class="skill-card"><i class="fas fa-database fa-2x"></i><br>SQL</div>
+            <div class="skill-card"><i class="fab fa-docker fa-2x"></i><br>Docker</div>
+            <div class="skill-card"><i class="fab fa-git-alt fa-2x"></i><br>Git</div>
+            <div class="skill-card"><i class="fas fa-microchip fa-2x"></i><br>C++</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="section-header">
+            <h2>Selected Projects</h2>
+        </div>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <article class="project-card">
+                <div class="project-image">
+                    <div class="project-image-placeholder">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                    </div>
+                    <h3>AI Study Assistant</h3>
+                    <p>An intelligent web application that generates quizzes and summaries from lecture notes using NLP.
+                    </p>
+                    <div class="project-links">
+                        <a href="#" class="icon-link"><i class="fab fa-github fa-lg"></i></a>
+                        <a href="#" class="icon-link"><i class="fas fa-external-link-alt fa-lg"></i></a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-card">
+                <div class="project-image">
+                    <div class="project-image-placeholder">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="tag">C++</span>
+                        <span class="tag">IoT</span>
+                    </div>
+                    <h3>Autonomous Robot</h3>
+                    <p>A line-following and obstacle-avoiding robot built with Arduino and custom sensors.</p>
+                    <div class="project-links">
+                        <a href="#" class="icon-link"><i class="fab fa-github fa-lg"></i></a>
+                        <a href="#" class="icon-link"><i class="fas fa-video fa-lg"></i></a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-card">
+                <div class="project-image">
+                    <div class="project-image-placeholder">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Data Viz</span>
+                    </div>
+                    <h3>Crypto Dashboard</h3>
+                    <p>Real-time cryptocurrency tracking dashboard with predictive analytics visualization.</p>
+                    <div class="project-links">
+                        <a href="#" class="icon-link"><i class="fab fa-github fa-lg"></i></a>
+                        <a href="#" class="icon-link"><i class="fas fa-external-link-alt fa-lg"></i></a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+        </div>
+        <div class="contact-container">
+            <div>
+                <p style="color: var(--text-muted); margin-bottom: 2rem;">
+                    I'm currently looking for internships and collaborative opportunities. Whether you have a question
+                    or just want to say hi, I'll try my best to get back to you!
+                </p>
+                <div style="display: flex; gap: 1.5rem;">
+                    <a href="#" style="font-size: 1.5rem; color: var(--text-main);"><i class="fab fa-github"></i></a>
+                    <a href="#" style="font-size: 1.5rem; color: var(--text-main);"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" style="font-size: 1.5rem; color: var(--text-main);"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea rows="5" placeholder="Message" required></textarea>
+                </div>
+                <button type="submit" class="btn"
+                    style="background: transparent; cursor: pointer; border-radius: 6px;">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Built with <i class="fas fa-heart" style="color: var(--accent-secondary);"></i> & code.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
