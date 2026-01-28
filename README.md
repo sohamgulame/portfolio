@@ -1,30 +1,32 @@
 # Portfolio | Engineering Student
 
-A comprehensive personal portfolio website designed to showcase engineering skills, projects, and professional background. This project presents a modern, responsive, and visually engaging interface.
+A comprehensive personal portfolio website designed to showcase engineering skills, projects, and professional background. This project has been upgraded to a **Full Stack Node.js Application** to support backend features like contact form handling.
 
 ## 🚀 Features
 
+-   **Full Stack Architecture:** Node.js & Express backend serving a static frontend.
+-   **Functional Contact Form:** Form submissions are handled via a backend API (`/api/contact`).
 -   **Responsive Design:** Fully adaptable layout for desktop, tablet, and mobile devices.
 -   **Interactive UI:** Smooth scrolling, hover effects, and a dynamic background glow.
 -   **Project Showcase:** Dedicated section to display projects with tags, descriptions, and links.
 -   **Skills Display:** Visual grid layout for technical skills and tools.
--   **Contact Form:** Integrated contact section for inquiries.
 
 ## 🛠️ Technology Stack
 
--   **HTML5:** Semantic structure and accessibility.
--   **CSS3:** Custom styling, animations, variables, and flexbox/grid layouts.
--   **JavaScript:** Interactivity, smooth navigation, and dynamic effects.
--   **Font Awesome:** Iconography.
--   **Google Fonts:** Typography (Inter & Outfit).
+-   **Frontend:** HTML5, CSS3, JavaScript (Vanilla), Font Awesome.
+-   **Backend:** Node.js, Express.js.
+-   **Tools:** Git, npm.
 
 ## 📂 Project Structure
 
 ```
-├── index.html   # Main HTML structure
-├── styles.css   # Global styles and layout responsive definitions
-├── script.js    # Logic for interactions and animations
-└── README.md    # Project documentation
+├── public/          # Frontend assets (Static files)
+│   ├── index.html   # Main HTML structure
+│   ├── styles.css   # Styles and animations
+│   └── script.js    # Client-side logic & API calls
+├── server.js        # Express backend server
+├── package.json     # Project dependencies and scripts
+└── README.md        # Project documentation
 ```
 
 ## 🔧 Setup & Usage
@@ -32,9 +34,22 @@ A comprehensive personal portfolio website designed to showcase engineering skil
 1.  **Clone the repository:**
     ```bash
     git clone <repository-url>
+    cd <repository-folder>
     ```
-2.  **Open the project:**
-    Simply open the `index.html` file in any modern web browser to view the portfolio.
+
+2.  **Install Dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the Server:**
+    ```bash
+    npm start
+    ```
+    The server will start at `http://localhost:3000`.
+
+4.  **View the Portfolio:**
+    Open your browser and navigate to `http://localhost:3000`.
 
 ## 🌟 Highlights
 
