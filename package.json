@@ -1,0 +1,25 @@
+{
+  "name": "xyz",
+  "version": "1.0.0",
+  "description": "A comprehensive personal portfolio website designed to showcase engineering skills, projects, and professional background. This project presents a modern, responsive, and visually engaging interface.",
+  "main": "script.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohamgulame/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sohamgulame/portfolio/issues"
+  },
+  "homepage": "https://github.com/sohamgulame/portfolio#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
