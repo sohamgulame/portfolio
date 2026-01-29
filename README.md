@@ -1,4 +1,4 @@
-# Portfolio | Engineering Student
+# Portfolio 
 
 A comprehensive personal portfolio website designed to showcase engineering skills, projects, and professional background. This project has been upgraded to a **Full Stack Node.js Application** to support backend features like contact form handling.
 
@@ -54,7 +54,7 @@ A comprehensive personal portfolio website designed to showcase engineering skil
 ## 🌟 Highlights
 
 -   **Hero Section:** Welcoming introduction with a gradient text effect.
--   **Projects:** Detailed project cards for "AI Study Assistant", "Autonomous Robot", and "Crypto Dashboard".
+-   **Projects:** Detailed project cards for "working on it".
 -   **About Me:** Professional summary and background.
 
 ## 📄 License
